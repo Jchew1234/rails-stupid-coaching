@@ -1,0 +1,19 @@
+<div class='container'>
+  <div class='banner-answer'>
+    <h1 class='header'>Stupid Coaching</h1>
+  </div>
+
+  <div class='questiondisplay'>
+      <p class='question'><%= @question %><p>
+      <p class='question'>-You<p>
+  </div>
+
+  <div class='answerdisplay'>
+    <p class='answer'><%= @answer %><p>
+    <p class='answer'>- Your coach</p>
+  </div>
+
+  <div class='link'>
+    <%= link_to 'Ask a new question', ask_path%>
+  </div>
+</div>

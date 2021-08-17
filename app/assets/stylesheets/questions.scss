@@ -1,0 +1,56 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.header {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+.description {
+  color: grey;
+  font-family: 'STIX Two Text', serif;
+  font-size: 20px;
+}
+
+.question {
+  color: grey;
+  font-family: 'STIX Two Text', serif;
+}
+
+.answer {
+  color: grey;
+  font-family: 'STIX Two Text', serif;
+}
+
+// .container {
+//   width: 100%;
+//   display: flex;
+//   justify-content: space-around;
+// }
+
+.banner-answer {
+  text-align: center;
+  width: 900px;
+}
+
+.questiondisplay{
+  background-color: rgb(240, 239, 239);
+  text-align: center;
+  width: 900px;
+}
+
+.answerdisplay {
+  background-color: rgb(240, 239, 239);
+  text-align: center;
+  width: 900px;
+}
+
+.link {
+  text-align: center;
+}
+
+
+.banner-ask {
+  text-align: center;
+}
